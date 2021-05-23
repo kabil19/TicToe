@@ -23,7 +23,7 @@ def playGame():
     global data
     gameBoard(theBoard)
     count = 0
-    while count == 0:
+    while count == 0: # 1stWhile
         data = input("Are u X or O\n")
         if data == "X" or data == "O":
             break
